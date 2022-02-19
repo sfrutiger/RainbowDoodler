@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RainbowDoodler2",
-    "slug": "RainbowDoodler2",
+    "name": "RainbowDoodler",
+    "slug": "RainbowDoodler",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

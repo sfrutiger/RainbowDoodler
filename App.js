@@ -1,4 +1,4 @@
-import { StyleSheet, View, StatusBar } from 'react-native';
+import { StyleSheet, View, StatusBar, Button } from 'react-native';
 import Board from './components/Board';
 
 export default function App() {
@@ -8,6 +8,7 @@ export default function App() {
       <View style={styles.board}>
       < Board />
       </View>
+      <Button title='reset' style={styles.button}></Button>
     </View>
   );
 }
@@ -22,10 +23,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   board: {
-    width: 300,
-    height: 600,
+    width: '90%',
+    aspectRatio: 0.6,
     backgroundColor: 'black',
     flexDirection: 'row',
     flexWrap: 'wrap'
+  },
+  button: {
+
   }
 });

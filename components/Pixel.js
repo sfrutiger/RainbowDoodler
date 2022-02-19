@@ -36,7 +36,7 @@ export default function Pixel() {
         withTiming(6,{duration:colorDuration}),
         withTiming(7,{duration:colorDuration}),
         withTiming(8,{duration:colorDuration})),
-        -1,
+        2,
         false
         )}
 
@@ -44,7 +44,7 @@ export default function Pixel() {
 
     const animationStyle = useAnimatedStyle(() => {
       return{
-        height: 20,
+        height: '5%',
         aspectRatio: 1,
         borderColor: 'rgb(54, 54, 54)',
         borderWidth: 0.5,
